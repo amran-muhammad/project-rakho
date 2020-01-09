@@ -29,7 +29,7 @@
 			<div class="flex-section">
 				<div class="card-item mgr-15">
 					<div class="card-design first-card">
-						<a href="product-description.html">
+						<router-link to="/product-description">
 							<div class="content-overlay"></div>
 							<img class="content-image" src="/assets/img/webkit-sec-card-img.png">
 							<div class="content-details fadeIn-bottom">
@@ -38,14 +38,14 @@
 								<p class="content-like"><span><i class="far fa-thumbs-up"></i></span><span>275</span>
 									<span><i class="fas fa-eye"></i></span> <span>358</span> </p>
 							</div>
-						</a>
+						</router-link>
 					</div>
 				</div>
 
 
 				<div class="card-item">
 					<div class="card-design first-card">
-						<a href="product-description.html">
+						<router-link to="/product-description">
 							<div class="content-overlay"></div>
 							<img class="content-image" src="/assets/img/webkit-card-2-img.png">
 							<div class="content-details fadeIn-bottom">
@@ -54,13 +54,13 @@
 								<p class="content-like"><span><i class="far fa-thumbs-up"></i></span>275 <span><i
 											class="fas fa-eye"></i></span>358</p>
 							</div>
-						</a>
+						</router-link>
 					</div>
 				</div>
 
 				<div class="card-item mgr-15 mgt-15">
 					<div class="card-design first-card">
-						<a href="product-description.html">
+						<router-link to="/product-description">
 							<div class="content-overlay"></div>
 							<img class="content-image" src="/assets/img/webkit-card-3-img.png">
 							<div class="content-details fadeIn-bottom">
@@ -69,13 +69,13 @@
 								<p class="content-like"><span><i class="far fa-thumbs-up"></i></span>275 <span><i
 											class="fas fa-eye"></i></span>358</p>
 							</div>
-						</a>
+						</router-link>
 					</div>
 				</div>
 
 				<div class="card-item mgt-15">
 					<div class="card-design first-card">
-						<a href="product-description.html">
+						<router-link to="/product-description">
 							<div class="content-overlay"></div>
 							<img class="content-image" src="/assets/img/webkit-card-4-img.png">
 							<div class="content-details fadeIn-bottom">
@@ -84,16 +84,16 @@
 								<p class="content-like"><span><i class="far fa-thumbs-up"></i></span>275 <span><i
 											class="fas fa-eye"></i></span>358</p>
 							</div>
-						</a>
+						</router-link>
 					</div>
 				</div>
 
 			</div>
 
 			<div class="second-sec-button">
-				<a href="all-template.html">
+				<router-link to="/all-template">
 					<button class="view-button web-sec-btn">View all websites</button>
-				</a>
+				</router-link>
 			</div>
 		</div>
 

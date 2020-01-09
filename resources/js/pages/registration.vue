@@ -42,17 +42,17 @@
                                                 <input type="password" placeholder="">
                                             </div>
                                           
-                                            <p class="authentication-p" >Your personal data will be used to support your experience through your websites.to manage access to your account and for other purposes described in our <a href="#">privacy policy</a>.</p>
+                                            <p class="authentication-p" >Your personal data will be used to support your experience through your websites.to manage access to your account and for other purposes described in our <router-link to="#">privacy policy</router-link>.</p>
                                             <div class="authentication create-account-button">
-                                                <a href="home.html">
+                                                <router-link to="/">
                                                      <button class="sign-now-button">Sign up</button>
-                                                </a>
+                                                </router-link>
                                             </div>
                                         </form>
                                         
                             
                                         <div class="authentication-info">
-                                            <p>Already have an account? <a href="login.html">Log in Now</a></p>
+                                            <p>Already have an account? <router-link to="/login">Log in Now</router-link></p>
                                         </div>
                                     </div>
                                 </div>

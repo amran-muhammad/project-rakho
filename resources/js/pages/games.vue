@@ -32,7 +32,7 @@
 			<div class="flex-section">
 				<div class="card-item mgr-15">
 					<div class="card-design first-card">
-						<a href="product-description.html" target="">
+						<router-link to="product-description" target="">
 							<div class="content-overlay"></div>
 							<img class="content-image" src="/assets/img/game-sec-card-1.png">
 							<div class="content-details fadeIn-bottom">
@@ -41,13 +41,13 @@
 								<p class="content-like"><span><i class="far fa-thumbs-up"></i></span>275 <span><i
 											class="fas fa-eye"></i></span>358</p>
 							</div>
-						</a>
+						</router-link>
 					</div>
 				</div>
 
 				<div class="card-item">
 					<div class="card-design second-card">
-						<a href="product-description.html" target="">
+						<router-link to="product-description" target="">
 							<div class="content-overlay"></div>
 							<img class="content-image" src="/assets/img/game-sec-card-2.png">
 							<div class="content-details fadeIn-bottom">
@@ -56,7 +56,7 @@
 								<p class="content-like"><span><i class="far fa-thumbs-up"></i></span>275 <span><i
 											class="fas fa-eye"></i></span>358</p>
 							</div>
-						</a>
+						</router-link>
 					</div>
 				</div>
 
@@ -64,9 +64,9 @@
 			</div>
 
 			<div class="sixth-sec-button">
-				<a href="all-template.html">
+				<router-link to="all-template">
 					<button class="view-button game-sec-btn">View all Games</button>
-				</a>
+				</router-link>
 			</div>
 		</div>
 

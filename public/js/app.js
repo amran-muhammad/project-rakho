@@ -65653,33 +65653,26 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [
-      _c(
-        "div",
-        { staticClass: "third-section", attrs: { id: "third-section-id" } },
-        [
-          _c("div", { staticClass: "container" }, [
-            _c("h1", { staticClass: "third-sec-h" }, [
-              _c("span", [_vm._v("Mobile")]),
-              _vm._v("Application Project")
-            ]),
-            _vm._v(" "),
-            _c("p", { staticClass: "third-sec-p" }, [
-              _vm._v(
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem\n\t\t\t\tIpsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a\n\t\t\t\tgalley of type and scrambled it to make a type specimen book."
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-md-5 col-md-offset-1 box-wrap" }, [
-              _c("div", { staticClass: "box android-card" }, [
-                _c("a", { attrs: { href: "#" } }, [
+  return _c("div", [
+    _c(
+      "div",
+      { staticClass: "third-section", attrs: { id: "third-section-id" } },
+      [
+        _c("div", { staticClass: "container" }, [
+          _vm._m(0),
+          _vm._v(" "),
+          _c("p", { staticClass: "third-sec-p" }, [
+            _vm._v(
+              "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem\n\t\t\t\tIpsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a\n\t\t\t\tgalley of type and scrambled it to make a type specimen book."
+            )
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-md-5 col-md-offset-1 box-wrap" }, [
+            _c(
+              "div",
+              { staticClass: "box android-card" },
+              [
+                _c("router-link", { attrs: { to: "#" } }, [
                   _c("div", { staticClass: "icon" }, [
                     _c("img", {
                       attrs: { src: "/assets/img/ios-apps.png", alt: "" }
@@ -65696,12 +65689,17 @@ var staticRenderFns = [
                     ])
                   ])
                 ])
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-md-5 box-wrap" }, [
-              _c("div", { staticClass: "box ios-card" }, [
-                _c("a", { attrs: { href: "#" } }, [
+              ],
+              1
+            )
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-md-5 box-wrap" }, [
+            _c(
+              "div",
+              { staticClass: "box ios-card" },
+              [
+                _c("router-link", { attrs: { to: "#" } }, [
                   _c("div", { staticClass: "icon" }, [
                     _c("img", {
                       attrs: { src: "/assets/img/ios-apps.png", alt: "" }
@@ -65716,20 +65714,25 @@ var staticRenderFns = [
                     _vm._v("Mobile Apps Develpment For Any Business")
                   ])
                 ])
-              ])
-            ])
+              ],
+              1
+            )
           ])
-        ]
-      ),
-      _vm._v(" "),
-      _c("div", { staticClass: "fourth-section" }, [
-        _c("div", { staticClass: "container" }, [
-          _c("div", { staticClass: "flex-section" }, [
-            _c("div", { staticClass: "card-item mgr-15" }, [
-              _c("div", { staticClass: "card-design frst-card" }, [
+        ])
+      ]
+    ),
+    _vm._v(" "),
+    _c("div", { staticClass: "fourth-section" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "flex-section" }, [
+          _c("div", { staticClass: "card-item mgr-15" }, [
+            _c(
+              "div",
+              { staticClass: "card-design frst-card" },
+              [
                 _c(
-                  "a",
-                  { attrs: { href: "product-description.html", target: "" } },
+                  "router-link",
+                  { attrs: { to: "product-description.html", target: "" } },
                   [
                     _c("div", { staticClass: "content-overlay" }),
                     _vm._v(" "),
@@ -65762,14 +65765,19 @@ var staticRenderFns = [
                     )
                   ]
                 )
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "card-item" }, [
-              _c("div", { staticClass: "card-design second-card" }, [
+              ],
+              1
+            )
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "card-item" }, [
+            _c(
+              "div",
+              { staticClass: "card-design second-card" },
+              [
                 _c(
-                  "a",
-                  { attrs: { href: "product-description.html", target: "" } },
+                  "router-link",
+                  { attrs: { to: "product-description", target: "" } },
                   [
                     _c("div", { staticClass: "content-overlay" }),
                     _vm._v(" "),
@@ -65802,19 +65810,36 @@ var staticRenderFns = [
                     )
                   ]
                 )
-              ])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "fourth-sec-button" }, [
-            _c("a", { attrs: { href: "all-template.html" } }, [
+              ],
+              1
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "fourth-sec-button" },
+          [
+            _c("router-link", { attrs: { to: "all-template" } }, [
               _c("button", { staticClass: "view-button apps-sec-btn" }, [
                 _vm._v("View all Apps")
               ])
             ])
-          ])
-        ])
+          ],
+          1
+        )
       ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("h1", { staticClass: "third-sec-h" }, [
+      _c("span", [_vm._v("Mobile")]),
+      _vm._v("Application Project")
     ])
   }
 ]
@@ -66294,53 +66319,20 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [
-      _c(
-        "div",
-        { staticClass: "fifth-section", attrs: { id: "fifth-section-id" } },
-        [
-          _c("div", { staticClass: "container" }, [
-            _c("div", { staticClass: "col-md-6 fifth-sec-image" }, [
-              _c("img", { attrs: { src: "/assets/img/game-img.png", alt: "" } })
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-md-6" }, [
-              _c("h1", { staticClass: "fifth-sec-header" }, [
-                _c("span", [_vm._v("Game")]),
-                _vm._v("Development")
-              ]),
-              _vm._v(" "),
-              _c("p", { staticClass: "fifth-sec-p" }, [
-                _vm._v(
-                  "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just\n\t\t\t\t\tclick “Edit Text” or double click me to add your own content and make changes to the font."
-                )
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "icon-section" }, [
-                _c("img", {
-                  attrs: { src: "/assets/img/icon-group.png", alt: "" }
-                })
-              ])
-            ])
-          ])
-        ]
-      ),
-      _vm._v(" "),
-      _c("div", { staticClass: "sixth-section" }, [
-        _c("div", { staticClass: "container" }, [
-          _c("div", { staticClass: "flex-section" }, [
-            _c("div", { staticClass: "card-item mgr-15" }, [
-              _c("div", { staticClass: "card-design first-card" }, [
+  return _c("div", [
+    _vm._m(0),
+    _vm._v(" "),
+    _c("div", { staticClass: "sixth-section" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "flex-section" }, [
+          _c("div", { staticClass: "card-item mgr-15" }, [
+            _c(
+              "div",
+              { staticClass: "card-design first-card" },
+              [
                 _c(
-                  "a",
-                  { attrs: { href: "product-description.html", target: "" } },
+                  "router-link",
+                  { attrs: { to: "product-description", target: "" } },
                   [
                     _c("div", { staticClass: "content-overlay" }),
                     _vm._v(" "),
@@ -66373,14 +66365,19 @@ var staticRenderFns = [
                     )
                   ]
                 )
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "card-item" }, [
-              _c("div", { staticClass: "card-design second-card" }, [
+              ],
+              1
+            )
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "card-item" }, [
+            _c(
+              "div",
+              { staticClass: "card-design second-card" },
+              [
                 _c(
-                  "a",
-                  { attrs: { href: "product-description.html", target: "" } },
+                  "router-link",
+                  { attrs: { to: "product-description", target: "" } },
                   [
                     _c("div", { staticClass: "content-overlay" }),
                     _vm._v(" "),
@@ -66413,20 +66410,63 @@ var staticRenderFns = [
                     )
                   ]
                 )
-              ])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "sixth-sec-button" }, [
-            _c("a", { attrs: { href: "all-template.html" } }, [
+              ],
+              1
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "sixth-sec-button" },
+          [
+            _c("router-link", { attrs: { to: "all-template" } }, [
               _c("button", { staticClass: "view-button game-sec-btn" }, [
                 _vm._v("View all Games")
               ])
             ])
-          ])
-        ])
+          ],
+          1
+        )
       ])
     ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "fifth-section", attrs: { id: "fifth-section-id" } },
+      [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "col-md-6 fifth-sec-image" }, [
+            _c("img", { attrs: { src: "/assets/img/game-img.png", alt: "" } })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-md-6" }, [
+            _c("h1", { staticClass: "fifth-sec-header" }, [
+              _c("span", [_vm._v("Game")]),
+              _vm._v("Development")
+            ]),
+            _vm._v(" "),
+            _c("p", { staticClass: "fifth-sec-p" }, [
+              _vm._v(
+                "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just\n\t\t\t\t\tclick “Edit Text” or double click me to add your own content and make changes to the font."
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "icon-section" }, [
+              _c("img", {
+                attrs: { src: "/assets/img/icon-group.png", alt: "" }
+              })
+            ])
+          ])
+        ])
+      ]
+    )
   }
 ]
 render._withStripped = true
@@ -68609,144 +68649,163 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "second-section-account content-bg ptb-30" },
-      [
-        _c("div", { staticClass: "container" }, [
-          _c("div", { staticClass: "section-content" }, [
-            _c("div", { staticClass: "authentication-row" }, [
-              _c("div", { staticClass: "col-md-6 col-12" }, [
-                _c("div", { staticClass: "authentication-image" }, [
-                  _c("img", {
-                    attrs: { src: "/assets/img/sign-up.png", alt: "" }
-                  })
-                ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "col-md-6 col-12" }, [
-                _c("div", { staticClass: "authentication-card" }, [
-                  _c("div", { staticClass: "authentication-title" }, [
-                    _c("h3", [
-                      _c("span", [_vm._v("Sign Up")]),
-                      _vm._v("to your Account")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "authentication-log" }, [
-                    _c("form", { attrs: { action: "#" } }, [
-                      _c("div", { staticClass: "authentication-item" }, [
-                        _c("label", { attrs: { for: "input" } }, [
-                          _vm._v("First Name")
-                        ]),
-                        _vm._v(" "),
-                        _c("input", {
-                          attrs: {
-                            type: "text",
-                            placeholder: "First Name Here"
-                          }
-                        })
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "authentication-item" }, [
-                        _c("label", { attrs: { for: "input" } }, [
-                          _vm._v("Student ID")
-                        ]),
-                        _vm._v(" "),
-                        _c("input", {
-                          attrs: { type: "text", placeholder: "1612----56" }
-                        })
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "authentication-item" }, [
-                        _c("label", { attrs: { for: "input" } }, [
-                          _vm._v("Batch")
-                        ]),
-                        _vm._v(" "),
-                        _c("input", {
-                          attrs: { type: "text", placeholder: "41" }
-                        })
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "authentication-item" }, [
-                        _c("label", { attrs: { for: "input" } }, [
-                          _vm._v("Email Address")
-                        ]),
-                        _vm._v(" "),
-                        _c("input", {
-                          attrs: {
-                            type: "text",
-                            placeholder: "your-email@domail.com"
-                          }
-                        })
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "authentication-item" }, [
-                        _c("label", { attrs: { for: "input" } }, [
-                          _vm._v("Password")
-                        ]),
-                        _vm._v(" "),
-                        _c("input", {
-                          attrs: { type: "text", placeholder: "" }
-                        })
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "authentication-item" }, [
-                        _c("label", { attrs: { for: "input" } }, [
-                          _vm._v("Confirm Password")
-                        ]),
-                        _vm._v(" "),
-                        _c("input", {
-                          attrs: { type: "password", placeholder: "" }
-                        })
-                      ]),
-                      _vm._v(" "),
-                      _c("p", { staticClass: "authentication-p" }, [
+  return _c(
+    "div",
+    { staticClass: "second-section-account content-bg ptb-30" },
+    [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "section-content" }, [
+          _c("div", { staticClass: "authentication-row" }, [
+            _vm._m(0),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-md-6 col-12" }, [
+              _c("div", { staticClass: "authentication-card" }, [
+                _vm._m(1),
+                _vm._v(" "),
+                _c("div", { staticClass: "authentication-log" }, [
+                  _c("form", { attrs: { action: "#" } }, [
+                    _vm._m(2),
+                    _vm._v(" "),
+                    _vm._m(3),
+                    _vm._v(" "),
+                    _vm._m(4),
+                    _vm._v(" "),
+                    _vm._m(5),
+                    _vm._v(" "),
+                    _vm._m(6),
+                    _vm._v(" "),
+                    _vm._m(7),
+                    _vm._v(" "),
+                    _c(
+                      "p",
+                      { staticClass: "authentication-p" },
+                      [
                         _vm._v(
                           "Your personal data will be used to support your experience through your websites.to manage access to your account and for other purposes described in our "
                         ),
-                        _c("a", { attrs: { href: "#" } }, [
+                        _c("router-link", { attrs: { to: "#" } }, [
                           _vm._v("privacy policy")
                         ]),
                         _vm._v(".")
-                      ]),
-                      _vm._v(" "),
-                      _c(
-                        "div",
-                        { staticClass: "authentication create-account-button" },
-                        [
-                          _c("a", { attrs: { href: "home.html" } }, [
-                            _c("button", { staticClass: "sign-now-button" }, [
-                              _vm._v("Sign up")
-                            ])
-                          ])
-                        ]
-                      )
-                    ]),
+                      ],
+                      1
+                    ),
                     _vm._v(" "),
-                    _c("div", { staticClass: "authentication-info" }, [
-                      _c("p", [
+                    _c(
+                      "div",
+                      { staticClass: "authentication create-account-button" },
+                      [
+                        _c("router-link", { attrs: { to: "/" } }, [
+                          _c("button", { staticClass: "sign-now-button" }, [
+                            _vm._v("Sign up")
+                          ])
+                        ])
+                      ],
+                      1
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "authentication-info" }, [
+                    _c(
+                      "p",
+                      [
                         _vm._v("Already have an account? "),
-                        _c("a", { attrs: { href: "login.html" } }, [
+                        _c("router-link", { attrs: { to: "/login" } }, [
                           _vm._v("Log in Now")
                         ])
-                      ])
-                    ])
+                      ],
+                      1
+                    )
                   ])
                 ])
               ])
             ])
           ])
         ])
-      ]
-    )
+      ])
+    ]
+  )
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-md-6 col-12" }, [
+      _c("div", { staticClass: "authentication-image" }, [
+        _c("img", { attrs: { src: "/assets/img/sign-up.png", alt: "" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "authentication-title" }, [
+      _c("h3", [_c("span", [_vm._v("Sign Up")]), _vm._v("to your Account")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "authentication-item" }, [
+      _c("label", { attrs: { for: "input" } }, [_vm._v("First Name")]),
+      _vm._v(" "),
+      _c("input", { attrs: { type: "text", placeholder: "First Name Here" } })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "authentication-item" }, [
+      _c("label", { attrs: { for: "input" } }, [_vm._v("Student ID")]),
+      _vm._v(" "),
+      _c("input", { attrs: { type: "text", placeholder: "1612----56" } })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "authentication-item" }, [
+      _c("label", { attrs: { for: "input" } }, [_vm._v("Batch")]),
+      _vm._v(" "),
+      _c("input", { attrs: { type: "text", placeholder: "41" } })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "authentication-item" }, [
+      _c("label", { attrs: { for: "input" } }, [_vm._v("Email Address")]),
+      _vm._v(" "),
+      _c("input", {
+        attrs: { type: "text", placeholder: "your-email@domail.com" }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "authentication-item" }, [
+      _c("label", { attrs: { for: "input" } }, [_vm._v("Password")]),
+      _vm._v(" "),
+      _c("input", { attrs: { type: "text", placeholder: "" } })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "authentication-item" }, [
+      _c("label", { attrs: { for: "input" } }, [_vm._v("Confirm Password")]),
+      _vm._v(" "),
+      _c("input", { attrs: { type: "password", placeholder: "" } })
+    ])
   }
 ]
 render._withStripped = true
@@ -69071,53 +69130,18 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [
-      _c(
-        "div",
-        { staticClass: "first-section", attrs: { id: "first-section-id" } },
-        [
-          _c("div", { staticClass: "container" }, [
-            _c("div", { staticClass: "col-md-7" }, [
-              _c("h1", { staticClass: "first-sec-header" }, [
-                _c("span", [_vm._v("Website")]),
-                _vm._v("design and development")
-              ]),
-              _vm._v(" "),
-              _c("p", { staticClass: "first-sec-p" }, [
-                _vm._v(
-                  "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just\n\t\t\t\t\tclick “Edit Text” or double click me to add your own content and make changes to the font. I’m a\n\t\t\t\t\tgreat place for you to tell a story and let your users know a little more about you."
-                )
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "icon-section" }, [
-                _c("img", {
-                  attrs: { src: "/assets/img/icon-group.png", alt: "" }
-                })
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-md-5 first-sec-image" }, [
-              _c("img", {
-                attrs: { src: "/assets/img/software-teams.png", alt: "" }
-              })
-            ])
-          ])
-        ]
-      ),
-      _vm._v(" "),
-      _c("div", { staticClass: "second-section" }, [
-        _c("div", { staticClass: "container" }, [
-          _c("div", { staticClass: "flex-section" }, [
-            _c("div", { staticClass: "card-item mgr-15" }, [
-              _c("div", { staticClass: "card-design first-card" }, [
-                _c("a", { attrs: { href: "product-description.html" } }, [
+  return _c("div", [
+    _vm._m(0),
+    _vm._v(" "),
+    _c("div", { staticClass: "second-section" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "flex-section" }, [
+          _c("div", { staticClass: "card-item mgr-15" }, [
+            _c(
+              "div",
+              { staticClass: "card-design first-card" },
+              [
+                _c("router-link", { attrs: { to: "/product-description" } }, [
                   _c("div", { staticClass: "content-overlay" }),
                   _vm._v(" "),
                   _c("img", {
@@ -69146,12 +69170,17 @@ var staticRenderFns = [
                     ])
                   ])
                 ])
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "card-item" }, [
-              _c("div", { staticClass: "card-design first-card" }, [
-                _c("a", { attrs: { href: "product-description.html" } }, [
+              ],
+              1
+            )
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "card-item" }, [
+            _c(
+              "div",
+              { staticClass: "card-design first-card" },
+              [
+                _c("router-link", { attrs: { to: "/product-description" } }, [
                   _c("div", { staticClass: "content-overlay" }),
                   _vm._v(" "),
                   _c("img", {
@@ -69178,12 +69207,17 @@ var staticRenderFns = [
                     ])
                   ])
                 ])
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "card-item mgr-15 mgt-15" }, [
-              _c("div", { staticClass: "card-design first-card" }, [
-                _c("a", { attrs: { href: "product-description.html" } }, [
+              ],
+              1
+            )
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "card-item mgr-15 mgt-15" }, [
+            _c(
+              "div",
+              { staticClass: "card-design first-card" },
+              [
+                _c("router-link", { attrs: { to: "/product-description" } }, [
                   _c("div", { staticClass: "content-overlay" }),
                   _vm._v(" "),
                   _c("img", {
@@ -69210,12 +69244,17 @@ var staticRenderFns = [
                     ])
                   ])
                 ])
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "card-item mgt-15" }, [
-              _c("div", { staticClass: "card-design first-card" }, [
-                _c("a", { attrs: { href: "product-description.html" } }, [
+              ],
+              1
+            )
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "card-item mgt-15" }, [
+            _c(
+              "div",
+              { staticClass: "card-design first-card" },
+              [
+                _c("router-link", { attrs: { to: "/product-description" } }, [
                   _c("div", { staticClass: "content-overlay" }),
                   _vm._v(" "),
                   _c("img", {
@@ -69242,20 +69281,65 @@ var staticRenderFns = [
                     ])
                   ])
                 ])
-              ])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "second-sec-button" }, [
-            _c("a", { attrs: { href: "all-template.html" } }, [
+              ],
+              1
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "second-sec-button" },
+          [
+            _c("router-link", { attrs: { to: "/all-template" } }, [
               _c("button", { staticClass: "view-button web-sec-btn" }, [
                 _vm._v("View all websites")
               ])
             ])
-          ])
-        ])
+          ],
+          1
+        )
       ])
     ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "first-section", attrs: { id: "first-section-id" } },
+      [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "col-md-7" }, [
+            _c("h1", { staticClass: "first-sec-header" }, [
+              _c("span", [_vm._v("Website")]),
+              _vm._v("design and development")
+            ]),
+            _vm._v(" "),
+            _c("p", { staticClass: "first-sec-p" }, [
+              _vm._v(
+                "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just\n\t\t\t\t\tclick “Edit Text” or double click me to add your own content and make changes to the font. I’m a\n\t\t\t\t\tgreat place for you to tell a story and let your users know a little more about you."
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "icon-section" }, [
+              _c("img", {
+                attrs: { src: "/assets/img/icon-group.png", alt: "" }
+              })
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-md-5 first-sec-image" }, [
+            _c("img", {
+              attrs: { src: "/assets/img/software-teams.png", alt: "" }
+            })
+          ])
+        ])
+      ]
+    )
   }
 ]
 render._withStripped = true
